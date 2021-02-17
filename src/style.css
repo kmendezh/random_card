@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+.card_body {
+  background-color: white;
+  width: 15%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 3%;
+}
+
+#upper_icon {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.number_container {
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-left: 30%;
+  padding-right: 35%;
+  text-justify: auto;
+}
+
+#number {
+  font-size: 150px;
+  justify-self: center;
+}
+
+#lower_icon {
+  margin-top: 25%;
+  float: right;
+  padding: 10px;
+  font-size: 40px;
+  transform: rotate(180deg);
+}
